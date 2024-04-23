@@ -13,7 +13,7 @@ Hopbush: rgb(203, 106, 158)
     box-sizing: border-box;
 }
 header {
-    height: auto;
+    max-height: 100px;
     background-color: white;
 }
 .logo {
@@ -28,15 +28,21 @@ header {
 }
 .head-title {
     display: inline-block;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: bolder;
+    vertical-align: -15px;
 }
-.container-background {
+.page-background {
     background-color: rgb(247, 248, 251);
+    /* margin-bottom: 20px; */
+}
+footer {
+    height: 80px;
+    background-color:rgb(247, 248, 251) ;
 }
 .container {
     height: 800px;
-    margin: 50px 200px;
+    margin: 50px 200px 0px 200px;
     background-color: white;
 }
 .new-task {
@@ -54,7 +60,6 @@ header {
     padding: 6px 20px;
     border-radius: 4px;
 }
-
 .dividing-line {
     height: 2px;
     background-color: rgb(183, 183, 183);
@@ -70,7 +75,6 @@ header {
     margin-top: 30px;
     
 }
-
 .tag-list {
     color: white;
     padding: 5px 15px;
@@ -80,45 +84,57 @@ header {
 .editorial {
     background-color: rgb(102, 170, 237);
 }
+.editorial::before {
+    content: "Editorial" ;
+}
 .q1-goals {
     background-color: rgb(150, 118, 223);
+}
+.q1-goals::before {
+    content: "Q1 Goals";
 }
 .recruiting {
     background-color: rgb(123, 188, 170);
 }
+.recruiting::before {
+    content: "Recruiting";
+}
 .mobile {
     background-color: rgb(231, 160, 78);
 }
+.mobile::before {
+    content: "Mobile";
+}
 .website {
-    background-color: rgb(150, 118, 223);
+    background-color: rgb(203, 106, 158);
+}
+.website::before {
+    content: "Website";
 }
 .sales {
-    background-color: rgb(203, 106, 158);
+    background-color: rgb(180, 199, 78);
+}
+.sales::before {
+    content: "Sales";
 }
 .triangle {
     vertical-align: sub;
 }
-
+.mark-symbol {
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 6px;
+    font-weight: 900;
+}
 .check {
     color: rgb(0, 200, 0);
     border: 2px solid rgb(0, 200, 0);
-    border-radius: 50%;
-    margin-right: 10px;
-    padding: 5px;
-    font-size: 6px;
-    font-weight: 900;
 }
-
 .cross {
     color: red;
     border: 2px solid red;
-    border-radius: 50%;
-    margin-right: 10px;
-    padding: 5px;
-    font-size: 6px;
-    font-weight: 900;
 }
-
 .task {
     font-size: 20px;
     margin-bottom: 15px;
