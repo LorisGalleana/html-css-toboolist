@@ -30,9 +30,8 @@ header {
 .head-title {
     display: inline-block;
     font-size: 56px;
-    font-weight: 700;
+    font-weight: 900;
     vertical-align: -15px;
-
 }
 .page-background {
     background-color: rgb(247, 248, 251);
@@ -141,3 +140,5 @@ footer {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+
