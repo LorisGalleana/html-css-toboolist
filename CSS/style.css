@@ -1,0 +1,44 @@
+/* Palette colori
+Cornflower Blue: rgb(102, 170, 237)
+Fire Bush: rgb(231, 160, 78
+Gulf Stream: rgb(123, 188, 170)
+Medium Purple: rgb(150, 118, 223)
+Solitude: rgb(247, 248, 251)
+Hopbush: rgb(203, 106, 158)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-height: 100px;
+    background-color: white;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/Logo.png) ;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.head-title {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.change-color {
+    background-color: rgb(247, 248, 251);
+    /* background-color: black; */
+    /* margin-top: 30px; */
+}
+
+.container {
+    height: 800px;
+    margin: 50px 200px;
+    background-color: white;
+}
