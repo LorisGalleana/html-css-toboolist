@@ -29,8 +29,9 @@ header {
 .head-title {
     display: inline-block;
     font-size: 56px;
-    font-weight: bolder;
+    font-weight: 700;
     vertical-align: -15px;
+    font-family: "Golos Text", sans-serif;
 }
 .page-background {
     background-color: rgb(247, 248, 251);
