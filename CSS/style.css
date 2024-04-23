@@ -71,35 +71,30 @@ header {
     
 }
 
-.editorial {
-    background-color: rgb(102, 170, 237);
+.tag-list {
     color: white;
     padding: 5px 15px;
     border-radius: 16px;
     font-size: 12px;
+}
+.editorial {
+    background-color: rgb(102, 170, 237);
 }
 .q1-goals {
     background-color: rgb(150, 118, 223);
-    color: white;
-    padding: 5px 15px;
-    border-radius: 16px;
-    font-size: 12px;
 }
 .recruiting {
     background-color: rgb(123, 188, 170);
-    color: white;
-    padding: 5px 15px;
-    border-radius: 16px;
-    font-size: 12px;
 }
 .mobile {
     background-color: rgb(231, 160, 78);
-    color: white;
-    padding: 5px 15px;
-    border-radius: 16px;
-    font-size: 12px;
 }
-
+.website {
+    background-color: rgb(150, 118, 223);
+}
+.sales {
+    background-color: rgb(203, 106, 158);
+}
 .triangle {
     vertical-align: sub;
 }
