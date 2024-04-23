@@ -39,3 +39,21 @@ header {
     margin: 50px 200px;
     background-color: white;
 }
+
+.new-task {
+    background-color: rgb(102, 170, 237);
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    margin: 20px 10px 10px 60px;
+    border-radius: 4px;    
+}
+.new-section {
+    background-color: white;
+    color: rgb(183, 183, 183);
+    border: 2px solid rgb(183, 183, 183);
+    padding: 6px 20px;
+    border-radius: 4px;
+    
+
+}
