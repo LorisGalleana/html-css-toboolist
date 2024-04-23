@@ -12,31 +12,28 @@ Hopbush: rgb(203, 106, 158)
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
-    max-height: 100px;
+    height: auto;
     background-color: white;
 }
 .logo {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background-image: url(../img/Logo.png) ;
     background-repeat: no-repeat;
+    background-size: contain;
     display: inline-block;
+    vertical-align: middle;
+    margin: 10px 15px ;
 }
-
 .head-title {
     display: inline-block;
-    line-height: 50px;
-    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bolder;
 }
-
-.change-color {
+.container-background {
     background-color: rgb(247, 248, 251);
-    /* background-color: black; */
-    /* margin-top: 30px; */
 }
-
 .container {
     height: 800px;
     margin: 50px 200px;
