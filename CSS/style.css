@@ -39,7 +39,6 @@ header {
     margin: 50px 200px;
     background-color: white;
 }
-
 .new-task {
     background-color: rgb(102, 170, 237);
     color: white;
@@ -54,6 +53,24 @@ header {
     border: 2px solid rgb(183, 183, 183);
     padding: 6px 20px;
     border-radius: 4px;
-    
+}
 
+.dividing-line {
+    height: 2px;
+    background-color: rgb(183, 183, 183);
+    margin-bottom: 40px;
+}
+.section-margin {
+    margin-left: 60px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.editorial {
+    background-color: rgb(102, 170, 237);
+    border-radius: 4px;
 }
