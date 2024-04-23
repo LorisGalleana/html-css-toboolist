@@ -11,6 +11,7 @@ Hopbush: rgb(203, 106, 158)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Golos Text", sans-serif;
 }
 header {
     max-height: 100px;
@@ -31,7 +32,7 @@ header {
     font-size: 56px;
     font-weight: 700;
     vertical-align: -15px;
-    font-family: "Golos Text", sans-serif;
+
 }
 .page-background {
     background-color: rgb(247, 248, 251);
@@ -71,7 +72,7 @@ footer {
 }
 .section-title {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 10px;
     margin-top: 30px;
     
