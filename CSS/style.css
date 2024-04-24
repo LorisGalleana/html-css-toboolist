@@ -35,16 +35,17 @@ header {
 }
 .page-background {
     background-color: rgb(247, 248, 251);
-    /* margin-bottom: 20px; */
+    padding-bottom: 5%;
 }
 footer {
     height: 80px;
     background-color:rgb(247, 248, 251) ;
 }
 .container {
-    height: 800px;
-    margin: 50px 200px 0px 200px;
+    height: auto;
+    margin: 5% 15% 0% 15%;
     background-color: white;
+    padding-bottom: 10%;
 }
 .new-task {
     background-color: rgb(102, 170, 237);
